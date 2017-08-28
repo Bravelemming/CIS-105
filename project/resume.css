@@ -1,0 +1,131 @@
+/* Jack Daniel Kinne, CIS 105.  Portfolio page="index".  Hot damn. */
+
+/* background image */
+
+body { 
+    background: url(images/brownstars.jpg) repeat repeat center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: gray;
+    color: black;
+    font-family: Segoe UI, Helvetica, Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* mouse stuff */
+
+
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: rgb(224, 255, 225);
+    background-color: white;
+    border-radius: 0px 15px 15px 0px;
+}
+    
+#top li a:hover {
+    color: E0FFFF;
+    background-color: black;
+    border-radius: 15px;
+}
+
+
+/* fig image */
+
+#fig {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+    color: rgba(170, 170, 170, 0.7);
+}
+
+/* STICKY footer */
+
+#footerpage {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  color: #CCC;
+  background: #333;
+  padding: 1px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+}
+
+/*  01 in DA headline */
+
+sub, sup {
+  color: gray;
+  font-size: 8px;
+}
+
+#leftquicklinks {
+  position: fixed;
+  right: 0px;
+  bottom: 50px;
+  padding-right: 0px;
+}
+
+/* Header, which is also the nav! */
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  color: #CCC;
+  background: #333;
+  padding: 2px;
+  border-radius: 15px;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+#top li {
+    border-radius: 15px;
+    display: inline-block;
+}
+
+
+.titles {
+  text-align: right;
+}
+
+
+header:hover {
+    width: 92%;
+    background-color: #42423A;
+    color: black;
+    transition-timing-function: ease-in;
+    transition: width 2s;
+}
+
+#res {
+  position: center;
+
+}
+
+#letters {
+  position: left;
+}
+
+p:#links{
+  margin-left: 5%;
+}
